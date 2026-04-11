@@ -1,0 +1,21 @@
+[
+  // Use Ctrl+I as the primary entrypoint into Cursor agent mode.
+  {
+    "key": "ctrl+i",
+    "command": "composerMode.agent"
+  },
+
+  // restore ctrl+e for vim
+  {
+    "key": "ctrl+e",
+    "command": "-cursor.toggleAgentWindowIDEUnification",
+    "when": "!isGlass && workbenchState != 'empty'"
+  },
+
+  // Toggle Cursor's unified sidebar from the keyboard.
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.toggleUnifiedSidebarFromKeyboard",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  }
+]

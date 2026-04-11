@@ -1,0 +1,57 @@
+{
+  // Window and workbench appearance.
+  "window.zoomLevel": 1.4,
+  "workbench.colorTheme": "Eva Light Bold",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.wrapTabs": true,
+
+  // File explorer behavior.
+  "files.autoSave": "onFocusChange",
+  "explorer.autoReveal": false,
+  "explorer.sortOrder": "type",
+  "git.openRepositoryInParentFolders": "never",
+
+  // Editor defaults.
+  "editor.lineNumbers": "relative",
+  "editor.minimap.autohide": "mouseover",
+  "editor.rulers": [
+    88,
+    100
+  ],
+  "editor.semanticHighlighting.enabled": false,
+  "editor.wordSegmenterLocales": [
+    "zh-CN"
+  ],
+  "editor.wordWrap": "on",
+  "debug.inlineValues": "off",
+  "diffEditor.maxComputationTime": 0,
+
+  // Terminal behavior.
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.suggest.providers": {
+    "lsp": false,
+    "vscode.terminal-suggest": false
+  },
+  "terminal.integrated.tabs.location": "left",
+
+  // Python and Ruff defaults kept on host.
+  "python.analysis.typeCheckingMode": "basic",
+  "python.terminal.activateEnvironment": false,
+
+  // Vim integration and input method switching. (partially for linux with ibus only)
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "xkb:us::eng",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/ibus engine",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/ibus engine {im}",
+  "vim.easymotion": true,
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-j>": false
+  },
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.leader": "<space>",
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true
+}

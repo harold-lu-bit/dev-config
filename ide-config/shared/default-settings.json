@@ -1,0 +1,59 @@
+{
+  // Vim word motions powered by jieba in normal mode.
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "w"
+      ],
+      "commands": [
+        "jieba.forwardWord"
+      ]
+    },
+    {
+      "before": [
+        "b"
+      ],
+      "commands": [
+        "jieba.backwardWord"
+      ]
+    },
+    {
+      "before": [
+        "d",
+        "w"
+      ],
+      "commands": [
+        "jieba.killWord"
+      ]
+    },
+    {
+      "before": [
+        "d",
+        "b"
+      ],
+      "commands": [
+        "jieba.backwardKillWord"
+      ]
+    }
+  ],
+
+  // Matching word-wise selections in visual mode.
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "w"
+      ],
+      "commands": [
+        "jieba.forwardSelectWord"
+      ]
+    },
+    {
+      "before": [
+        "b"
+      ],
+      "commands": [
+        "jieba.backwardSelectWord"
+      ]
+    }
+  ]
+}

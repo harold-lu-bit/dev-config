@@ -1,0 +1,36 @@
+[
+  // Free up Ctrl+I for Copilot chat instead of triggering suggestions.
+  {
+    "key": "ctrl+i",
+    "command": "workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+
+  // Copilot chat attachment shortcut kept only in VS Code.
+  {
+    "key": "ctrl+l",
+    "command": "github.copilot.chat.attachSelection"
+  },
+  
+  // Free up Ctrl+Alt+I for Copilot chat instead of triggering suggestions.
+  {
+    "key": "ctrl+alt+i",
+    "command": "-workbench.action.chat.open",
+    "when": "!chatSetupDisabled && !chatSetupHidden"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  }
+]

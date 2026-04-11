@@ -1,0 +1,4 @@
+anysphere.cursorpyright
+anysphere.remote-containers
+anysphere.remote-ssh
+worisur.wordcount-cjk
