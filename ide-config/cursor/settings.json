@@ -1,4 +1,8 @@
 {
-    // vscode-style activity bar on the left.
-    "workbench.activityBar.orientation": "vertical"
+  // vscode-style activity bar on the left.
+  "workbench.activityBar.orientation": "vertical",
+
+  "editor.minimap.enabled": false,
+
+  "cursorpyright.analysis.typeCheckingMode": "basic"
 }

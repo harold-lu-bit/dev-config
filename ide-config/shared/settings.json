@@ -14,7 +14,6 @@
 
   // Editor defaults.
   "editor.lineNumbers": "relative",
-  "editor.minimap.autohide": "mouseover",
   "editor.rulers": [
     88,
     100
@@ -36,7 +35,6 @@
   "terminal.integrated.tabs.location": "left",
 
   // Python and Ruff defaults kept on host.
-  "python.analysis.typeCheckingMode": "basic",
   "python.terminal.activateEnvironment": false,
 
   // Vim integration and input method switching. (partially for linux with ibus only)
