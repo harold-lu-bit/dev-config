@@ -47,7 +47,18 @@
   "vim.easymotion": true,
   "vim.foldfix": true,
   "vim.handleKeys": {
-    "<C-j>": false
+    // copy
+    "<C-c>": false,
+    // agent
+    "<C-i>": false,
+    // terminal
+    "<C-j>": false,
+    // add selection to agent
+    "<C-l>": false,
+    // open file by name
+    "<C-p>": false,
+    // paste
+    "<C-v>": false
   },
   "vim.hlsearch": true,
   "vim.incsearch": true,

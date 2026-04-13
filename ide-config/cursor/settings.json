@@ -1,3 +1,4 @@
 {
+    // vscode-style activity bar on the left.
     "workbench.activityBar.orientation": "vertical"
 }
