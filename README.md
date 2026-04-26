@@ -4,5 +4,6 @@
 
 - **`dotfiles/`**：Vim、tmux、Kitty 等终端侧配置；详情见 [`dotfiles/README.md`](dotfiles/README.md)。
 - **`ide-config/`**：VS Code / Cursor 的分层设置、快捷键与扩展清单，以及批量安装脚本说明。
+- **resources**：有常用字体，FiraCodeNF适合代码编辑，JetBrainsMonoNF适合终端。
 
 按需将各子目录中的文件同步到本机对应路径（或符号链接），再配合各工具官方文档完成依赖安装即可。

@@ -72,4 +72,11 @@ endif
 au BufNewfile,BufRead *.launch set filetype=xml
 
 " use system clipboard
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
+" use <leader>y/p to copy/paste to system clipboard
+vnoremap <leader>y "+y
+nnoremap <leader>y "+y
+nnoremap <leader>Y "+Y
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p

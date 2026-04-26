@@ -17,5 +17,12 @@
     "key": "ctrl+alt+s",
     "command": "workbench.action.toggleUnifiedSidebarFromKeyboard",
     "when": "!isAuxiliaryWindowFocusedContext"
+  },
+
+  // conflict with latex-workshop's jumping from source to pdf
+  {
+    "key": "ctrl+alt+j",
+    "command": "-workbench.action.toggleAgentsFromKeyboard",
+    "when": "!isAuxiliaryWindowFocusedContext && !isGlass"
   }
 ]

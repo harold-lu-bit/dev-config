@@ -32,5 +32,10 @@
     "key": "ctrl+alt+i",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  // focus on codex
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.view.extension.codexSecondaryViewContainer"
   }
 ]

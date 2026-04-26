@@ -4,7 +4,20 @@
 
 ## Vim
 
-`.vimrc` 使用 [Pathogen](https://github.com/tpope/vim-pathogen) 管理插件（`execute pathogen#infect()`）。安装与用法见上游仓库说明；插件一般放在 `~/.vim/bundle/`。
+- `.vimrc` 使用 [Pathogen](https://github.com/tpope/vim-pathogen) 管理插件（`execute pathogen#infect()`）。安装与用法见上游仓库说明；插件一般放在 `~/.vim/bundle/`。
+
+- 安装`EasyMotion`:
+
+  ```bash
+  cd ~/.vim/bundle
+  git clone https://github.com/easymotion/vim-easymotion.git
+  ```
+
+- 为了能同步系统剪贴板，需要`vim --version | grep clipboard`显示`+clipboard`，如果没有ubuntu下可用以下命令安装：
+
+  ```bash
+  sudo apt install vim-gtk3
+  ```
 
 ## tmux
 

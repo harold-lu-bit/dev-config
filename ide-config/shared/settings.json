@@ -1,6 +1,7 @@
 {
   // Window and workbench appearance.
   "window.zoomLevel": 1.4,
+  // Other themes I find appealing: "Atom Material Theme", "Everforest Dark"
   "workbench.colorTheme": "Eva Light Bold",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
@@ -23,6 +24,8 @@
     "zh-CN"
   ],
   "editor.wordWrap": "on",
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
   "debug.inlineValues": "off",
   "diffEditor.maxComputationTime": 0,
 
@@ -33,15 +36,25 @@
     "vscode.terminal-suggest": false
   },
   "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
 
   // Python and Ruff defaults kept on host.
   "python.terminal.activateEnvironment": false,
 
   // Vim integration and input method switching. (partially for linux with ibus only)
+  // ibus
   "vim.autoSwitchInputMethod.enable": true,
   "vim.autoSwitchInputMethod.defaultIM": "xkb:us::eng",
   "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/ibus engine",
   "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/ibus engine {im}",
+  // // fcitx5
+  // "vim.autoSwitchInputMethod.defaultIM": "1",
+  // "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote",
+  // "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -t {im}",
+  // // for windows with sogou pinyin, ybroxy.vim-im-autoswitch extension is required
+  // "vim-im-autoswitch.default IME State for Insert Mode": 0,
+  // "vim.cursorStylePerMode.insert": "line",
+  // "vim.cursorStylePerMode.normal": "block",
   "vim.easymotion": true,
   "vim.foldfix": true,
   "vim.handleKeys": {
@@ -55,12 +68,11 @@
     "<C-l>": false,
     // open file by name
     "<C-p>": false,
-    // paste
-    "<C-v>": false
+    // find
+    "<C-f>": false
   },
   "vim.hlsearch": true,
   "vim.incsearch": true,
-  "vim.leader": "<space>",
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true
 }
